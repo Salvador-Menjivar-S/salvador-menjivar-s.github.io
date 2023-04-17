@@ -1,0 +1,167 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  background-color: lightblue
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Header Styles */
+
+header {
+  background: rgb(2,0,36);
+background: linear-gradient(343deg, rgba(2,0,36,1) 0%, rgba(9,89,121,1) 23%, rgba(0,212,255,1) 100%);
+  padding: 40px 0;
+}
+
+img {
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.intro {
+  float: left;
+  width: calc(100% - 170px);
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #0062cc;
+}
+
+/* Social Styles */
+
+.social {
+  background-color: #f2f2f2;
+  padding: 40px 0;
+}
+
+.social ul {
+  display: flex;
+  justify-content: center;
+}
+
+.social ul li {
+  margin: 0 10px;
+}
+
+.social ul li a {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Section Styles */
+
+section {
+  padding: 40px 0;
+}
+
+.experience ul,
+.hard-skills ul,
+.work-history ul,
+.projects ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.experience ul li,
+.hard-skills ul li,
+.work-history ul li,
+.projects ul li {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Section Styles */
+
+section {
+  padding: 40px 0;
+}
+
+/* Add animation to text when hovered over */
+section li:hover {
+  animation: highlight .5s ease-in-out forwards;
+}
+
+/* Define animation */
+@keyframes highlight {
+  0% {
+    transform: none;
+    color: #333;
+  }
+  50% {
+    transform: scale(1.2);
+    color: #007bff;
+  }
+  100% {
+    transform: none;
+    color: #333;
+  }
+  .project {
+  margin-bottom: 20px;
+}
+.project h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.project-details {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.bullet-points {
+  display: flex;
+  
+}
+.bullet {
+  display: flex;
+  margin-bottom: 10px;
+}
+.bullet span {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+}
