@@ -2,7 +2,6 @@
 
 * {
   box-sizing: border-box;
-  background-color: lightblue
 }
 
 body {
@@ -14,6 +13,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
+  
 }
 
 h1, h2, h3 {
@@ -30,7 +30,7 @@ ul {
 
 header {
   background: rgb(2,0,36);
-background: linear-gradient(343deg, rgba(2,0,36,1) 0%, rgba(9,89,121,1) 23%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(343deg, rgba(2,0,36,1) 0%, rgba(9,89,121,1) 23%, rgba(0,212,255,1) 100%);
   padding: 40px 0;
 }
 
@@ -44,18 +44,26 @@ img {
 }
 
 .intro {
-  float: left;
+  float: center;
   width: calc(100% - 170px);
 }
 
 .btn {
   display: inline-block;
-  padding: 12px 30px;
+  padding: 14px 30px;
   background-color: #007bff;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
-  margin-top: 20px;
+  margin-top: 0px;
+  
+}
+
+.email {
+  position: relative;
+  top: 10px;
+  left: 60px;
+  color: #f8eded;
 }
 
 .btn:hover {
@@ -87,6 +95,7 @@ img {
 
 section {
   padding: 40px 0;
+  background-color: #e5f5fc;
 }
 
 .experience ul,
@@ -115,12 +124,6 @@ footer {
   text-align: center;
 }
 
-/* Section Styles */
-
-section {
-  padding: 40px 0;
-}
-
 /* Add animation to text when hovered over */
 section li:hover {
   animation: highlight .5s ease-in-out forwards;
@@ -140,28 +143,32 @@ section li:hover {
     transform: none;
     color: #333;
   }
-  .project {
-  margin-bottom: 20px;
 }
+
+/* Project Styles */
+
+
+
+.project {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
 .project h3 {
   font-size: 24px;
   margin-bottom: 10px;
+  color: #007bff;
 }
+
 .project-details {
   font-size: 16px;
   margin-bottom: 10px;
-}
-.bullet-points {
+  width: 100%;
   display: flex;
-  
-}
-.bullet {
-  display: flex;
-  margin-bottom: 10px;
-}
-.bullet span {
-  margin-left: 10px;
-  font-size: 16px;
-}
+  justify-content: center;
+  }
 
-}
+
+
+
+
