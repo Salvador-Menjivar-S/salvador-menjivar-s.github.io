@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Salvador Menjivar | Junior Data Analyst</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <script src="https://kit.fontawesome.com/3a8716cea5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="css/logo.jpg" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+       
+      <div class="header-text">
+        <p>Data Analyst</p>
+        <h1>Hi, I am <span>Salvador </span>Menjivar</h1>
+      </div>
+    </div>
+  </div>
+  <!------------------about---------------------------------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="css/User.jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <p>I'm a data analyst with experience in technical support and customer service. My skills include troubleshooting software and hardware issues, data analysis using Python, SQL, and R, and advanced Excel skills. My goal is to help businesses make data-driven decisions by providing accurate and actionable insights. If you're interested in discussing how I can help your business with data analysis, please don't hesitate to contact me.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Data analysis </span><br>using Python, SQL, and R</li>
+              <li><span>Web Development</span><br> using HTML, CSS and Javascript</li>
+              <li><span>Technical troubleshooting</span><br> and problem-solving skills
+              </li>
+              <li><span>Detail-oriented </span><br>and highly organized
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>December 2020 - Present</span><br>Google Workspace Tech Support Representative at Telus international</li>
+              <li><span>February 2019 - November 2020</span><br>HP Software Tech Support Representative at Concentrix</li>
+              <li><span>January 2017 - January 2018</span><br>AT&T Customer Service Representative at Concentrix</li>
+              <li><span>November 2014 - December 2016</span><br>Dell Hardware Tech Support Representative at Concentrix 
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Currently Enrolled</span><br>Bachelor of Science in Computer Science at Universidad Francisco Gavidia</li>
+              <li><span>Coursera</span><br>Google Data Analytics Certificate
+              </li>
+              <li><span>Coursera</span><br>Python for Everybody Specialization
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--------------------------service------------------------------------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-database"></i>
+          <h2>Data Visualization</h2>
+          <p>It helps you to better understand complex data sets by turning them into easily interpretable visual representations such as charts, graphs, and maps. Using industry-leading tools and techniques to create interactive and engaging dashboards that will allow you to uncover new insights and trends in your data</p>
+          
+        </div>
+        <div>
+          <i class="fa-solid fa-chart-column"></i>
+          <h2>Data Cleaning and Transformation</h2>
+          <p>It will help you to ensure that your data is accurate, consistent, and usable. Using a range of techniques, including data profiling, data quality assessment, and data standardization, to identify and address any data quality issues. Also perform data transformation tasks, such as merging data from multiple sources and formatting data for analysis</p>
+          
+        </div>
+        <div>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <h2>Predictive Analytics</h2>
+          <p>It uses statistical algorithms to analyze historical data and predict future outcomes. This service will help you to make data-driven decisions by identifying patterns and trends in your data, and generating accurate forecasts and predictive models. It can help you to improve your business performance by identifying key drivers of success and recommending strategies for improvement</p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+ <!--------------------------Portfolio------------------------------------->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Portfolio</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="css/money1.jpg" alt="money money-management"> 
+        <div class="layer">
+          <h3>Money Management</h3>
+          <p>The code is about cleaning and categorizing bank transaction data using Python libraries such as pandas, numpy, panel,
+            hvplot and holoviews.</p>
+            <a href="https://colab.research.google.com/drive/1kC__Q8ZlysvPztVy6PigGmUWJrROsEwm?usp=sharing" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="css/covid.jpg" alt="covidtracker">
+        <div class="layer">
+          <h3>Global Vaccine Tracker</h3>
+          <p>The Dashboard provides details on the global vaccination progress against COVID-19, including that as of December 25, 2021, 49.3% of the world population has received at least one dose of the COVID-19 vaccine.</p>
+            <a href="https://public.tableau.com/app/profile/salvador.menjivar/viz/GlobalVaccineTracker_16794140705090/GlobalVaccineTracker" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="css/airbnb.jpg" alt="arbnb">
+        <div class="layer">
+          <h3>Airbnb Tableau Project</h3>
+          <p>Explore pricing trends for Airbnb listings in Seattle with this informative dashboard featuring five charts, including average price per bedroom, distinct count of bedroom listings, and more.</p>
+            <a href="https://public.tableau.com/app/profile/salvador.menjivar/viz/AirbnbAnalysis_16793448051180/Dashboard1" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ <!--------------------------Contact------------------------------------->
+ <div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i> contact@salvadormenjivar.com</p>
+        <p><i class="fa-solid fa-square-phone-flip fa-flip-horizontal"></i> +50374420970</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/salvador-menjivar/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/Salvador-Menjivar-S" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="css/Resume..pdf" download class="btn btn2" >Download Resume</a>
+      </div>
+      <div class="contact-right">
+        <form action="">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message"  rows="6" placeholder="Your Message" ></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>&copy; 2023 Salvador Menjivar. All rights reserved.</p>
+  </div>
+ </div>
+
+ <script src="index.js"></script>
+</body>
+
+</html>
