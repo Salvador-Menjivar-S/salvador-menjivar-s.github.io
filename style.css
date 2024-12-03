@@ -22,11 +22,15 @@ body{
   padding: 10px 10%;
   
 }
-nav{
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: sticky; /* Make it sticky */
+  top: 0; /* Stick it to the top of the viewport */
+  background-color: #080808; /* Ensure visibility */
+  z-index: 1000; /* Keep it above other content */
 }
 .logo{
   width: 140px;
